@@ -5,14 +5,15 @@
 </head>
   <body>
   <header>
-
-    <ul>
-      <li>Home</li>
-      <li>Profile</li>
-      <li>Blog</li>
-    </ul>
+  <nav>
+      <ul class="hyperlink">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+    </nav>
   </header>
-
+<article>
   <section>
     <div class="month-list">
       <ul>
@@ -56,27 +57,28 @@
       </ul>
     </div>
   </section>
-
+</article>
+<article>
   <section>
     <div class="grandparent">
       <div class="parent">
         <h4>Child of parent</h4>
         <div>
-          <div>I'm red!</div>
-          <h4>I'm red's sister
-          <div>I'm blue!</div>
+          <div id="red">I'm red!</div>
+          <h4>I'm red's sister</h4> <!-- added closing header tag -->
+          <div id="blue">I'm blue!</div>
           <h4>I'm blue's brother</h4>
         </div>
       </div>
       <h4>Child of grandparent</h4>
     </div>
   </section>
-
+</article>
   <footer class="padded">
 
     <div class="disclaimer">
       Only one purchase per household. 
-      <a href="#">
+      <a href="#"></a> <!-- added closing anchor tag -->
         <span class="footer-link">
           <span class="disabled">
             Privacy Policy
